@@ -1,6 +1,6 @@
 
 import { useNavigate } from "react-router-dom";
-import { Users, User, Family } from "lucide-react";
+import { Users, User, Home } from "lucide-react";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -9,12 +9,12 @@ const Index = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#FFDEE2] via-[#FDE1D3] to-[#E5DEFF] px-2">
       <div className="max-w-lg w-full glass card-shadow text-center px-6 py-10 mt-10">
         <div className="flex flex-col items-center mb-4">
-          {/* Pastel circular logo with Family icon */}
+          {/* Pastel circular logo with Home icon */}
           <div className="rounded-full bg-gradient-to-br from-pink-200 via-pink-100 to-pink-300 flex items-center justify-center h-24 w-24 shadow-lg mb-2 border-4 border-white/60">
-            <Family color="#ad4871" size={54} />
+            <Users color="#ad4871" size={54} />
           </div>
           <h1 className="text-4xl font-extrabold mb-1 text-[#ad4871] font-sans tracking-tight">FamBank</h1>
-          <div className="text-xs uppercase tracking-wider text-[#d492b2] font-semibold pb-2">Your family’s pastel pocketbook</div>
+          <div className="text-xs uppercase tracking-wider text-[#d492b2] font-semibold pb-2">Your family's pastel pocketbook</div>
         </div>
         {/* Hero Accent Image */}
         <img
